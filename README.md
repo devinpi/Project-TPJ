@@ -71,7 +71,7 @@ Power-over-Ethernet (PoE) support (requires separate PoE HAT)
 Max current: 20mA
 
 
-### Software Section:
+### Software Used:
 
 #### HTML/CSS
 version Html5 and Css3 used to build web page
