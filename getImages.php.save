@@ -1,0 +1,21 @@
+<?php
+if (isset($_SESSION['login_stat']) && $_SESSION['login_stat'] == true)
+{
+	echo "Welcome " . $_SESSION['logged_user'] . "!";
+}
+else
+{
+	echo "No User Logged in!!";
+//	header("Location: retrieve.php");
+}
+?>
+
+<html>
+<body>
+<form name="imageForm" action="retrieve.php" method="POST">
+        
+        <input type = "text" id = "img_date" name = "img_date"/>
+        <input type = "Submit" id = "button" value = "Get Images"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!--<?php
+include('authenticate1.php');
+
+if(isset($_SESSION['logged_user']))
+{
+        header("location:getImages.html");
+}
+
+?>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+</head>
+<body>
+	<div>
+	    <form name="loginForm" action="authenticate1.php" method="POST">
+	    	<lable>Username</label>
+	    	<input type="text" id="user" name="user" placeholder="Enter Username"/>
+	    	<lable>PIN</label>
+	    	<input type="password" id="pass" name="pass" palceholder="Enter PIN"/>
+	    	<input type="submit" id="btn" value="Login"/>
+		<span><?php echo $error; ?></span>
+	    </form>
+	</div>
+</body>
+</html>
+
+
