@@ -9,7 +9,7 @@ Such a system can be installed at automatic doorways, house entrances, private r
 ## Functional Features of the Project
 The project has 4 main hardware components. They include Raspberry Pi, PIR (Passive Infrared) Motion Sensor, Pi camera module. It also includes a monitor for reviewing the logged information.
  
-### -Microcontroller: Raspberry Pi
+### -  Microcontroller: Raspberry Pi
 Raspberry Pi will be our main MCU that will handle all the processing. It will take care of the inputs from the PIR motion sensor and use that to capture or record the surroundings using the Pi camera. 
 A (T-shaped) Raspberry Pi GPIO extension board will be connected to the breadboard facilitating the components to be connected to the breadboard directly.
 It will also act as a local database device responsible for storing the data captured from the camera and further making that information available to view on a Web Page.  
